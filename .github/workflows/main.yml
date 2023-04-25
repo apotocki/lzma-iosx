@@ -27,5 +27,5 @@ jobs:
       if: startsWith(github.ref, 'refs/tags/')
       with:
         files: |
-          product/frameworks/*.zip
-          product/include.zip
+          frameworks/*.zip
+          include.zip
