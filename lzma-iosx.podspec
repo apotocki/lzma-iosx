@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
     s.name         = "lzma-iosx"
-    s.version      = "5.4.2.0"
+    s.version      = "5.4.2.1"
     s.summary      = "LZMA XCFramework for macOS and iOS, including both arm64 and x86_64 builds for macOS and Simulator."
-    s.homepage     = "https://github.com/apotocki/libssh2-iosx"
+    s.homepage     = "https://github.com/apotocki/lzma-iosx"
     s.license      = "BSD-3-Clause License"
     s.author       = { "Alexander Pototskiy" => "alex.a.potocki@gmail.com" }
     s.social_media_url = "https://www.linkedin.com/in/alexander-pototskiy"
