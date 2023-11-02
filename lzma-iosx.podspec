@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "lzma-iosx"
-    s.version      = "5.4.2.1"
+    s.version      = "5.4.5.0"
     s.summary      = "LZMA XCFramework for macOS and iOS, including both arm64 and x86_64 builds for macOS and Simulator."
     s.homepage     = "https://github.com/apotocki/lzma-iosx"
     s.license      = "BSD-3-Clause License"
