@@ -4,7 +4,7 @@ set -e
 # brew install git git-lfs
 THREAD_COUNT=$(sysctl hw.ncpu | awk '{print $2}')
 HOST_ARC=$( uname -m )
-XZ_VER=v5.4.2
+XZ_VER=v5.4.5
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 BUILD_DIR="$( cd "$( dirname "./" )" >/dev/null 2>&1 && pwd )"
 #XCODE_ROOT=$( xcode-select -print-path )
@@ -50,5 +50,3 @@ xcodebuild -create-xcframework -library $BUILD_DIR/build.ios.arm64/Release-iphon
 [[ ! -d $BUILD_DIR/frameworks/Headers ]] && mkdir $BUILD_DIR/frameworks/Headers
 cp $XZ_VER_NAME/src/liblzma/api/*.h $BUILD_DIR/frameworks/Headers/
 cp -r $XZ_VER_NAME/src/liblzma/api/lzma $BUILD_DIR/frameworks/Headers/
-
-
