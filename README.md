@@ -1,3 +1,5 @@
+[<img src="https://api.gitsponsors.com/api/badge/img?id=632544087" height="20">](https://api.gitsponsors.com/api/badge/link?p=0Rf9OLgfnuGjhYDo6IwENqmMdo+G4bZT/NA18q+uvMPWUxwmaH+5pqO2RYQZeiCorELVaWBjEr97OcPscx1NcHHFrmiiTHWZPXiCk47vnObR8QJ7DejEhtlxVPfMyLN0dp5lTD0YqtyzfrrWFylXRA==)
+
 ## LZMA for iOS and Mac OS X (Intel & Apple Silicon M1) - arm64 / x86_64
 
 Supported versions: 5.4.5, 5.4.2
