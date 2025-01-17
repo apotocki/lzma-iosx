@@ -1,5 +1,4 @@
-[<img src="https://api.gitsponsors.com/api/badge/img?id=632544087" height="50">](https://api.gitsponsors.com/api/badge/link?p=0Rf9OLgfnuGjhYDo6IwENq8uAdVvaksPRqQyHE4rmQ/dARc5Fhqzd95QdgOzuO2wGmyqbnpkkBDcZiiVSqCOC2AN219rMB5tSem8XJova5FqmtEsDCygo6aAT0gokvVatMwnwsCGI2FqInIVGShQZA==)
-[<img src="https://api.gitsponsors.com/api/badge/img?id=632544087" height="50">](https://api.gitsponsors.com/api/badge/link?p=0Rf9OLgfnuGjhYDo6IwENq8uAdVvaksPRqQyHE4rmQ/dARc5Fhqzd95QdgOzuO2wGmyqbnpkkBDcZiiVSqCOC2AN219rMB5tSem8XJova5FqmtEsDCygo6aAT0gokvVatMwnwsCGI2FqInIVGShQZA==)
+[<img src="https://api.gitsponsors.com/api/badge/img?id=632544087" height="50">](https://api.gitsponsors.com/api/badge/link?p=0Rf9OLgfnuGjhYDo6IwENq8uAdVvaksPRqQyHE4rmQ/h159CA39k3awUssIZzlSC1/x9qj95CSoppcgloIoRcmnsP0VJrTNVGdyuJDx9qBVlBHJP+0/CqYHYvNjOdZY90Il9H6ETddiT72ppPjEenQ==)
 
 ## LZMA for iOS and Mac OS X (Intel & Apple Silicon M1) - arm64 / x86_64
 
