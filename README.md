@@ -1,5 +1,3 @@
-[<img src="https://api.gitsponsors.com/api/badge/img?id=632544087" height="50">](https://api.gitsponsors.com/api/badge/link?p=0Rf9OLgfnuGjhYDo6IwENq8uAdVvaksPRqQyHE4rmQ/h159CA39k3awUssIZzlSC1/x9qj95CSoppcgloIoRcmnsP0VJrTNVGdyuJDx9qBVlBHJP+0/CqYHYvNjOdZY90Il9H6ETddiT72ppPjEenQ==)
-
 # lzma-iosx
 
 ## Overview
