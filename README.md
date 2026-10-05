@@ -24,7 +24,7 @@ Use the appropriate **Git tag or branch** to select the desired XZ Utils version
 ### Versioning Policy
 
 Branches correspond to official XZ Utils versions.
-Tags use the format `<xz_version>.<package_patch>` (e.g. `5.8.4.0`), where `package_patch` is this repository’s packaging/build revision for that upstream version.
+Tags use the format `<xz_version>.<package_patch>` (e.g. `5.8.4.1`), where `package_patch` is this repository’s packaging/build revision for that upstream version.
 
 ---
 
@@ -140,7 +140,7 @@ Add the following to your `Podfile`:
 use_frameworks!
 pod 'lzma-iosx', '~> 5.8.4'
 # or pin to a specific tag
-# pod 'lzma-iosx', :git => 'https://github.com/apotocki/lzma-iosx', :tag => '5.8.4.0'
+# pod 'lzma-iosx', :git => 'https://github.com/apotocki/lzma-iosx', :tag => '5.8.4.1'
 ```
 
 Then install the dependency:

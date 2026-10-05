@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "lzma-iosx"
-    s.version      = "5.8.4.0"
+    s.version      = "5.8.4.1"
     s.summary      = "liblzma (XZ Utils) XCFramework for macOS, iOS, watchOS, tvOS, and visionOS, including Mac Catalyst and simulators."
     s.homepage     = "https://github.com/apotocki/lzma-iosx"
     s.license      = "BSD-3-Clause License"
