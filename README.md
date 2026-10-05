@@ -123,8 +123,8 @@ Add the following to your `Podfile`:
 use_frameworks!
 pod 'lzma-iosx', '~> 5.8.4'
 # or pin to a specific tag
-# tags are formatted as <xz_version>.<package_patch>, e.g. 5.8.4.0
-# pod 'lzma-iosx', :git => 'https://github.com/apotocki/lzma-iosx', :tag => '5.8.4.0'
+# tags are formatted as <xz_version>.<package_patch>, e.g. 5.8.4.1
+# pod 'lzma-iosx', :git => 'https://github.com/apotocki/lzma-iosx', :tag => '5.8.4.1'
 ```
 
 Then install the dependency:
