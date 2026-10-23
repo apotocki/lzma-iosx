@@ -24,7 +24,7 @@ Use the appropriate **Git tag or branch** to select the desired XZ Utils version
 ### Versioning Policy
 
 Branches correspond to official XZ Utils versions.
-Tags use the format `<xz_version>.<package_patch>` (e.g. `5.8.4.1`), where `package_patch` is this repository’s packaging/build revision for that upstream version.
+Tags use the format `<xz_version>.<package_patch>` (e.g. `5.8.4.2`), where `package_patch` is this repository’s packaging/build revision for that upstream version.
 
 ---
 
@@ -138,10 +138,12 @@ Add the following to your `Podfile`:
 
 ```ruby
 use_frameworks!
-pod 'lzma-iosx', '~> 5.8.4'
+pod 'lzma-iosx', '~> 5.8.4', :source => 'https://github.com/apotocki/cocoapods-specs.git'
 # or pin to a specific tag
-# pod 'lzma-iosx', :git => 'https://github.com/apotocki/lzma-iosx', :tag => '5.8.4.1'
+# pod 'lzma-iosx', :git => 'https://github.com/apotocki/lzma-iosx', :tag => '5.8.4.2'
 ```
+
+New versions are published to the [apotocki/cocoapods-specs](https://github.com/apotocki/cocoapods-specs) spec repo, because CocoaPods Trunk becomes read-only on December 2, 2026; `:source` makes CocoaPods take the pod from there.
 
 Then install the dependency:
 
@@ -167,7 +169,7 @@ Precompiled artifacts published via GitHub Releases are subject to the upstream 
 
 ## As an advertisement…
 
-Please check out my iOS application on the App Store:
+Please check out my applications:
 
 <table align="center" border="0" cellspacing="0" cellpadding="0">
   <tr>
@@ -178,14 +180,29 @@ Please check out my iOS application on the App Store:
     </td>
     <td>
       <a href="https://apps.apple.com/us/app/potohex/id1620963302">PotoHEX</a><br />
-      HEX File Viewer &amp; Editor
+      HEX File Viewer &amp; Editor<br />
+      iOS &middot; App Store
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://play.google.com/store/apps/details?id=com.potohex">
+        <img src="https://play-lh.googleusercontent.com/we6L4zSvYH6K8K19sN7A1aS2Mlkp2kxWN-QSna0vHJEioxFB-dfMGUBUG2m6Bg-VqLaX50_PcgdyJd45A4z8ew=s140" width="70" />
+      </a>
+    </td>
+    <td>
+      <a href="https://play.google.com/store/apps/details?id=com.potohex">Otok Hex</a><br />
+      HEX File Viewer<br />
+      Android &middot; Google Play
     </td>
   </tr>
 </table>
 
 PotoHEX is designed for viewing and editing files at the byte or character level, calculating hashes, encoding/decoding data, and compressing/decompressing selected byte ranges.
 
-If you find this project useful, you can support my open-source work by trying the [App](https://apps.apple.com/us/app/potohex/id1620963302).
+Otok Hex lets you inspect any file's bytes in hex and text on Android, with Wi-Fi access to the files from your PC.
+
+If you find this project useful, you can support my open-source work by trying [PotoHEX](https://apps.apple.com/us/app/potohex/id1620963302) on the App Store or [Otok Hex](https://play.google.com/store/apps/details?id=com.potohex) on Google Play.
 
 ---
 
