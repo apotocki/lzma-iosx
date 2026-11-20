@@ -1,5 +1,7 @@
 ## LZMA for iOS and Mac OS X (Intel & Apple Silicon M1) - arm64 / x86_64
 
+> **liblzma is now available through [otok](https://otok-dev.github.io/)**, which builds it from source on your machine for the platforms of your app: see [Using otok](https://github.com/apotocki/lzma-iosx/blob/master/README.md#using-otok-recommended) in the `master` branch. otok provides the current versions of liblzma; this branch keeps the build scripts of liblzma 5.4.2.
+
 Supported version: 5.4.2
 
 This repo provides a universal script for building static liblzma library for use in iOS and Mac OS X applications.
