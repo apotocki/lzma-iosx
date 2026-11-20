@@ -1,6 +1,8 @@
 
 ## LZMA 5.8.4 for Apple Platforms
 
+> **liblzma is now available through [otok](https://otok-dev.github.io/)**, which builds it from source on your machine for the platforms of your app: see [Using otok](https://github.com/apotocki/lzma-iosx/blob/master/README.md#using-otok-recommended) in the `master` branch. otok provides the current versions of liblzma; this branch keeps the build scripts of liblzma 5.8.4.
+
 This branch contains build scripts for producing the liblzma static library packaged as an XCFramework for Apple platforms, based on the **upstream XZ Utils 5.8.4 release**.
 
 The XZ Utils source code is fetched from the official upstream repository:
